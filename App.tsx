@@ -4,7 +4,7 @@ import { CalculatorScreen } from './src/screens/CalculatorScreen';
 import { styles } from './src/theme/appTheme';
 
 
-export const App = () => {
+export default function App () {
   return (
     <SafeAreaView style={ styles.background }>
       <StatusBar 
