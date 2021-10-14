@@ -2,10 +2,10 @@ import React, { useRef, useState }  from 'react'
 
 
 enum Operators {
-    sum, rest, multiplication, divide
-    }
-
-interface Props {
+  sum,
+  rest,
+  multiplication,
+  divide
 }
 export const useCalculator = () => {
 
@@ -112,6 +112,18 @@ export const useCalculator = () => {
         break;
     }
   }
-  return { total, buttonSum, buttonRest, buttonDivide, buttonMultiplication,buildNumber, btnDelete, positiveNegative, clean, number, lastNumber }
+  return { 
+    total,
+    buttonSum,
+    buttonRest,
+    buttonDivide,
+    buttonMultiplication,
+    buildNumber,
+    btnDelete,
+    positiveNegative,
+    clean,
+    number,
+    lastNumber 
+  }
 }
 
